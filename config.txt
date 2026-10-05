@@ -1,0 +1,15 @@
+git config --global user.name NicolasCastro08
+git config --global user.email nicolasferreia@gmail.com
+
+node -v
+npm -v
+git --version
+ng version
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ng new galloflix --routing --style=css --standalone
+cd galloflix
+(O parâmetro --routing cria a infraestrutura de rotas; --style=css define CSS puro; --standalone cria a arquitetura atual do Angular, sem AppModule.)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
