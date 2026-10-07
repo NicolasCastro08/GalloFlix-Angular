@@ -12,4 +12,15 @@ ng new galloflix --routing --style=css --standalone
 cd galloflix
 (O parâmetro --routing cria a infraestrutura de rotas; --style=css define CSS puro; --standalone cria a arquitetura atual do Angular, sem AppModule.)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
+ng g c pages/home --skip-tests
+ng g c pages/search --skip-tests
+ng g c pages/details --skip-tests
+ng g c pages/person --skip-tests
+ng g s services/movie-api --skip-tests
+ng g d directives/auto-scroll --skip-tests
 
+mkdir src\app\models
+mkdir src\environments
+
+type nul > src\app\models\tmdb.models.ts
+type nul > src\environments\environment.ts
